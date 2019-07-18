@@ -23,9 +23,12 @@ public class Helper
 	public static void captureScreenshot(WebDriver driver)
 	{
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		try {
+		try 
+		{
 			FileHandler.copy(src, new File("./Screenshots/OrangeHRM_"+getCurrentDateTime()+".png"));
-		} catch (IOException e) {
+		} 
+		catch (IOException e) 
+		{
 			System.out.println("Unable to capture screenshot"+e.getMessage());
 		}
 	}
