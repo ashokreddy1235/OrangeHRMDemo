@@ -20,17 +20,20 @@ import org.openqa.selenium.io.FileHandler;
  */
 public class Helper 
 {
-	public static void captureScreenshot(WebDriver driver)
+	public static String captureScreenshot(WebDriver driver)
 	{
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String screenshotPath = System.getProperty("user.dir")+"/Screenshots/OrangeHRM_"+getCurrentDateTime()+".png";
 		try 
 		{
-			FileHandler.copy(src, new File("./Screenshots/OrangeHRM_"+getCurrentDateTime()+".png"));
+			FileHandler.copy(src, new File(screenshotPath));
 		} 
 		catch (IOException e) 
 		{
 			System.out.println("Unable to capture screenshot"+e.getMessage());
 		}
+		
+		return screenshotPath;
 	}
 	
 	

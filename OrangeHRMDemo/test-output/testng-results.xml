@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31078" started-at="2019-07-18T02:34:46Z" finished-at="2019-07-18T02:35:17Z">
+  <suite name="Suite" duration-ms="33917" started-at="2019-07-19T03:13:52Z" finished-at="2019-07-19T03:14:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31078" started-at="2019-07-18T02:34:46Z" finished-at="2019-07-18T02:35:17Z">
+    <test name="Test" duration-ms="33917" started-at="2019-07-19T03:13:52Z" finished-at="2019-07-19T03:14:25Z">
       <class name="com.orangehrm.testcases.LoginTestHRM">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="setupSuite" is-config="true" duration-ms="31" started-at="2019-07-18T02:34:45Z" finished-at="2019-07-18T02:34:46Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="setupSuite" is-config="true" duration-ms="336" started-at="2019-07-19T03:13:51Z" finished-at="2019-07-19T03:13:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="setup" is-config="true" duration-ms="25008" started-at="2019-07-18T02:34:46Z" finished-at="2019-07-18T02:35:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="setup" is-config="true" duration-ms="24945" started-at="2019-07-19T03:13:52Z" finished-at="2019-07-19T03:14:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApp(java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="loginApp" duration-ms="1599" started-at="2019-07-18T02:35:14Z" data-provider="userCredentials" finished-at="2019-07-18T02:35:16Z">
+        <test-method status="PASS" signature="loginApp(java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="loginApp" duration-ms="2272" started-at="2019-07-19T03:14:21Z" data-provider="userCredentials" finished-at="2019-07-19T03:14:23Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="tearDownMethod" is-config="true" duration-ms="643" started-at="2019-07-18T02:35:16Z" finished-at="2019-07-18T02:35:17Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.orangehrm.testcases.LoginTestHRM@42e26948]" name="tearDownMethod" is-config="true" duration-ms="2419" started-at="2019-07-19T03:14:23Z" finished-at="2019-07-19T03:14:25Z">
           <params>
             <param index="0">
               <value>
