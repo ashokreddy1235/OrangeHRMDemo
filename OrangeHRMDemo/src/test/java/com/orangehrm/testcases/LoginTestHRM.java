@@ -29,12 +29,12 @@ public class LoginTestHRM extends BaseClass
 	
 	
 	@Test(dataProvider="userCredentials")
-	public void loginApp(String username,String Password)
+	public void loginApp(String username,String Password,String expValue)
 	{
 		logger = report.createTest("Login to HRM");
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 		logger.info("Starting Application");
-		loginPage.loginToHRM(username, Password);
+		loginPage.loginToHRM(username, Password,expValue);
 		logger.pass("Login Success");
 		
 	}

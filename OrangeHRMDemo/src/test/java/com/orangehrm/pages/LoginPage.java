@@ -23,12 +23,17 @@ public class LoginPage
 	@FindBy(name="txtUsername") WebElement username;
 	@FindBy(name="txtPassword") WebElement password;
 	@FindBy(name="Submit") WebElement submit;
+	@FindBy(xpath="//span[@id='spanMessage']") WebElement spanMessage;
 	
-	public void loginToHRM(String appUserName, String appPassword)
+	public void loginToHRM(String appUserName, String appPassword, String expValue)
 	{
 		username.sendKeys(appUserName);
 		password.sendKeys(appPassword);
 		submit.click();
+		String actValue = spanMessage.getText();
+		System.out.println("Span Message:"+actValue);
+		
+		
 	}
 	
 	
